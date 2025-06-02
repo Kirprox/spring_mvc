@@ -7,7 +7,7 @@
 </h2>
 <br>
 <br>
-<form:form action="showDetails" modelAttribute="employee">
+<form:form action="showDetails" modelAttribute="employee" method="get">
     Name <form:input path="name"/>
     <form:errors path="name"/>
     <br> <br>
